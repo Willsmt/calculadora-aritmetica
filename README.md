@@ -1,38 +1,86 @@
-# calculadora-aritmetica
 
-This template should help get you started developing with Vue 3 in Vite.
+# 🧮 Calculadora Aritmética - Vue 3
 
-## Recommended IDE Setup
+Este projeto é uma **calculadora aritmética** desenvolvida em **Vue 3** utilizando a sintaxe do `<script setup>`.  
+O objetivo é servir como material de estudo para praticar conceitos fundamentais do Vue, como **estado reativo, computed properties e v-model**.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🚀 Funcionalidades
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Inserir dois números em campos separados  
+- Selecionar a operação aritmética (soma, subtração, multiplicação, divisão)  
+- O cálculo é realizado **automaticamente** ao alterar os valores ou a operação  
+- Tratamento de divisão por zero (mensagem de erro)  
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🏗️ Estrutura do Projeto
 
-## Project Setup
+- **App.vue** → Componente raiz que contém o estado e o cálculo.  
+- **Inputs numéricos** → Campos para inserir os dois números.  
+- **Select** → Campo para escolher a operação aritmética.  
+- **Resultado** → Exibido dinamicamente conforme os valores mudam.  
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+## ⚙️ Tecnologias Utilizadas
 
-```sh
-npm run dev
-```
+- [Vue 3](https://vuejs.org/)  
+- [Vite](https://vitejs.dev/) (para ambiente de desenvolvimento)  
+- HTML5 / CSS3  
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## ▶️ Como Rodar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+4. Rode o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+5. Abra no navegador:
+   ```
+   http://localhost:5173
+   ```
+
+
+
+## 📚 Objetivo
+
+Este projeto foi criado **para fins de estudo**.  
+Ele serve como base para revisar:
+- Uso de **estado reativo** com `reactive`  
+- Criação de **computed properties** para cálculos automáticos  
+- Aplicação de **v-model** para inputs e selects  
+- Estruturação de um projeto simples em Vue 3  
+
+---
+
+## ✨ Próximos Passos
+
+- Melhorar a interface com botões estilo calculadora tradicional  
+- Adicionar suporte a mais operações (potência, raiz quadrada, etc.)  
+- Implementar testes unitários com **Vitest**  
+
+---
+
+## 📌 Licença
+
+Este projeto é apenas para **estudos pessoais** e não possui fins comerciais.  
+Sinta-se livre para clonar, modificar e aprender com ele!
