@@ -14,7 +14,7 @@ const resultado = computed(() => {
     case "soma":
       return numero1 + numero2;
     case "subtracao":
-      return numero1 - numero2;
+      return Math.abs(numero1 - numero2);
     case "multiplicacao":
       return numero1 * numero2;
     case "divisao":
